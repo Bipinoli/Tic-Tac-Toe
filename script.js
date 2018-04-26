@@ -20,8 +20,6 @@ available = [true,true,true,true,true,true,true,true,true]
 occupiedBy = [noPlayer,noPlayer,noPlayer,noPlayer,noPlayer,noPlayer,noPlayer,noPlayer,noPlayer]
 
 function draw() {
-	context.fillStyle = "#fff";
-	context.fillRect(0,0, 1, 1);
 	for (let i=0; i<3; i++) {
 		for (let j=0; j<3; j++) {
 			context.fillStyle = cellColors[i*3+j];
